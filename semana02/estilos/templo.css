@@ -1,74 +1,61 @@
-body {
+* {
     margin: 0;
-    background-color: #d9d9d9;
-    font-family: Arial, sans-serif;
+    padding: 0;
 }
 
-/* Cabeçalho */
-header {
-    background-color: #444;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+}
+
+header,
+footer {
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 0.1px;
+    padding: 15px;
+}
+
+header {
     font-size: 20px;
 }
 
-/* Área principal */
 main {
-    width: 100%;
+    width: 60%;
+    margin: auto;
 }
 
-/* Título principal */
 h1 {
     text-align: center;
-    font-size: 39px;
-    margin-top: 23px;
-    margin-bottom: 23px;
+    margin: 20px 0;
 }
 
-/* Imagem */
 img {
-    width: 45%;
-    display: block;
-    margin: auto;
-    border: 5px solid #eeeeee;
-    box-sizing: border-box;
+    width: 97%;
+    border: 16px solid white;
 }
 
-/* Seções */
 section {
-    width: 45%;
-    background-color: #cfcfcf;
+    background-color: #d9d9d9;
+    margin: 20px 0;
     padding: 20px;
-    margin: 23px auto;
-    box-sizing: border-box;
 }
 
-/* Títulos das seções */
-h2 {
+section h2 {
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 15px;
 }
 
-/* Textos */
 p,
 li {
-    font-size: 19px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
-/* Lista */
 ul {
-    padding-left: 23px;
+    padding-left: 20px;
 }
 
-/* Rodapé */
 footer {
-    background-color: #444;
-    color: white;
-    text-align: center;
-    padding: 0.1px;
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 20px;
 }
