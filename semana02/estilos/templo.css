@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #d9d9d9;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+    font-size: 20px;
+}
+
+/* Área principal */
+main {
+    width: 100%;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 39px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+/* Imagem */
+img {
+    width: 45%;
+    display: block;
+    margin: auto;
+    border: 5px solid #eeeeee;
+    box-sizing: border-box;
+}
+
+/* Seções */
+section {
+    width: 45%;
+    background-color: #cfcfcf;
+    padding: 20px;
+    margin: 23px auto;
+    box-sizing: border-box;
+}
+
+/* Títulos das seções */
+h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Textos */
+p,
+li {
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+/* Lista */
+ul {
+    padding-left: 23px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+    margin-top: 50px;
+    font-size: 30px;
+}
