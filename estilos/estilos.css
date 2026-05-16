@@ -8,10 +8,17 @@ header {
     padding: 10px;
 }
 
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 15px;
+    padding: 8px;
+    display: block;
 }
 
 main {
@@ -24,7 +31,7 @@ h1 {
 }
 
 main img {
-    width: 300px;
+    width: 150px;
     height: auto;
     border: 1px solid #333;
     padding: 2px;
@@ -37,8 +44,8 @@ p {
 
 aside {
     width: 20rem;
-    margin: 10px;
-    border: 1.5px solid rgb(0 0 0 / 0.2);
+    margin: 20px;
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eeeeee;
     color: #333333;
