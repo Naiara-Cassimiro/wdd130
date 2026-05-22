@@ -29,7 +29,7 @@ header {
 }
 
 header img {
-    width: 150px;
+    width: 100px;
 }
 
 nav {
@@ -48,7 +48,7 @@ nav a {
 }
 
 .hero img {
-    width: 100%;
+    width: 90%;
     display: block;
 }
 
@@ -95,6 +95,14 @@ footer {
     padding: 15px;
     text-align: center;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 09px;
+}
+
 
 .socialmedia a {
     text-decoration: none;
