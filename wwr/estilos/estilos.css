@@ -1,207 +1,36 @@
-* {
-
-    margin: 0;
-
-    padding: 0;
-
-    box-sizing: border-box;
-
-}
-
-body {
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    background-color: #f5f5f5;
-
-    color: #222222;
-
-}
-
-header {
-
-    display: grid;
-
-    grid-template-columns: 180px auto;
-
-    align-items: center;
-
-    background-color: #0b4f6c;
-
-    padding: 15px 40px;
-
-}
-
-header img {
-
-    width: 120px;
-
-}
-
-nav ul {
-
-    list-style: none;
-
-    display: flex;
-
-    justify-content: space-evenly;
-
-}
-
-nav a {
-
-    text-decoration: none;
-
-    color: white;
-
-    font-size: 22px;
-
-    font-weight: bold;
-
-}
-
-main {
-
-    max-width: 1100px;
-
-    margin: 0 auto;
-
-    background-color: white;
-
-}
-
 .hero {
-
     position: relative;
-
 }
 
-.hero > img {
-
-    width: 100%;
-
+.hero img {
     display: block;
-
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
-
     position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 
-    top: 25px;
-
-    width: 100%;
-
-    text-align: center;
-
-    background-color: rgba(11,79,108,.85);
-
+    background-color: rgba(0,0,0,0.6);
     color: white;
 
-    padding: 20px;
-
-    font-size: 3rem;
-
+    padding: 10px;
 }
 
 .hero article {
-
     position: absolute;
 
-    bottom: 40px;
+    bottom: 20px;
+    left: 50%;
 
-    left: 40px;
+    transform: translateX(-50%);
 
-    right: 40px;
+    background-color: rgba(255,255,255,0.9);
 
-    background-color: rgba(255,255,255,.92);
+    padding: 15px;
 
-    padding: 25px;
-
-}
-
-.hero article img {
-
-    float: right;
-
-    width: 170px;
-
-    margin-left: 20px;
-
-}
-
-.hero article p {
-
-    font-size: 1.25rem;
-
-    line-height: 1.8;
-
-}
-
-section {
-
-    padding: 45px;
-
-}
-
-section h2 {
-
-    text-align: center;
-
-    color: #0b4f6c;
-
-    font-size: 2.5rem;
-
-    margin-bottom: 25px;
-
-}
-
-section p {
-
-    font-size: 1.2rem;
-
-    line-height: 1.9;
-
-}
-
-footer {
-
-    display: grid;
-
-    grid-template-columns: 1fr auto;
-
-    align-items: center;
-
-    background-color: #0b4f6c;
-
-    color: white;
-
-    padding: 20px 40px;
-
-}
-
-footer p {
-
-    font-size: 1rem;
-
-}
-
-.redes-sociais {
-
-    display: flex;
-
-    gap: 18px;
-
-}
-
-.redes-sociais img {
-
-    width: 40px;
-
-}
-
-.redes-sociais a {
-
-    text-decoration: none;
-
+    width: 80%;
 }
