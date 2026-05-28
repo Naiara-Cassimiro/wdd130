@@ -91,6 +91,24 @@ section h2 {
     text-align: center;
 }
 
+/* Seção Adventure Awaits You */
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figure img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
