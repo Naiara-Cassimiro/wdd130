@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário HTML e CSS</title>
+    <link rel="stylesheet" href="estilos/questionario.css">
+</head>
+
+<body>
+
+    <form>
+        <h1>Questionário sobre HTML e CSS</h1>
+
+        <label for="q1">1. O que significa HTML?</label>
+        <input type="text" id="q1" name="q1">
+
+        <label for="q2">2. Explique brevemente qual é a função do CSS em uma página web.</label>
+        <textarea id="q2" name="q2" rows="4"></textarea>
+
+        <label for="q3">3. Qual elemento HTML é usado para criar um link?</label>
+        <select id="q3" name="q3">
+            <option value="" selected disabled>Escolha uma opção</option>
+            <option value="a">&lt;a&gt;</option>
+            <option value="p">&lt;p&gt;</option>
+            <option value="img">&lt;img&gt;</option>
+        </select>
+
+        <label for="q4">4. Quantos níveis de cabeçalho existem no HTML (h1 até h6)?</label>
+        <input type="number" id="q4" name="q4">
+
+        <button type="submit">Enviar Questionário</button>
+    </form>
+
+</body>
+
+</html>
