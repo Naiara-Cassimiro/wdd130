@@ -251,16 +251,22 @@ footer {
     text-align: center;
 }
 
-.socialmedia {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
+footer p {
+    margin-bottom: 10px;
 }
 
-.socialmedia a {
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes-sociais a {
     text-decoration: none;
 }
 
-.socialmedia img {
-    width: 40px;
+.redes-sociais img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
 }
