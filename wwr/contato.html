@@ -1,104 +1,155 @@
-<main>
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-    <h1>Fale Conosco</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Entre em contato com a Rafting Águas Vivas para tirar dúvidas, solicitar informações ou planejar sua próxima aventura.">
+    <meta name="author" content="Naiara Cassimiro">
 
-    <section class="contato-info">
-        <h2>Informações de Contato</h2>
+    <title>Fale Conosco | Rafting Águas Vivas</title>
 
-        <p><strong>Endereço:</strong> Estr. Socorro - Munhoz, Km 5 - Socorro/SP</p>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
 
-        <p><strong>Telefone:</strong> (11) 98005-0689</p>
+<body>
 
-        <p><strong>Email:</strong> contato@aguasvivas.com</p>
-    </section>
+    <header>
 
-    <section class="mapa">
+        <img src="imagens/logotipo.png" alt="Logo da Rafting Águas Vivas">
 
-        <h2>Localização</h2>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
 
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.158249576675!2d-46.481142000000006!3d-22.610564999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c940da03b0fcc5%3A0xaa55f71d8f360497!2sRios%20De%20Aventura%20Rafting!5e0!3m2!1spt-BR!2sbr!4v1780604854078!5m2!1spt-BR!2sbr"
-            width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </header>
 
-        </iframe>
+    <main>
 
-    </section>
+        <h1>Fale Conosco - Rafting Águas Vivas</h1>
 
-    <section class="funcionarios">
+        <section class="contato-info">
 
-        <h2>Nossa Equipe</h2>
+            <h2>Informações de Contato</h2>
 
-        <figure>
-            <img src="imagens/guia1.jpg" alt="Mariana Souza">
-            <figcaption>Mariana Souza - Guia Principal</figcaption>
-        </figure>
+            <p><strong>Endereço:</strong> Estr. Socorro - Munhoz, Km 5 - Socorro/SP</p>
 
-        <figure>
-            <img src="imagens/guia2.jpg" alt="Rafael Costa">
-            <figcaption>Rafael Costa - Coordenador de Passeios</figcaption>
-        </figure>
+            <p><strong>Telefone:</strong> (11) 98005-0689</p>
 
-        <figure>
-            <img src="imagens/proprietario.png" alt="Lucas Almeida">
-            <figcaption>Lucas Almeida - Diretor Operacional</figcaption>
-        </figure>
+            <p><strong>Email:</strong> contato@aguasvivas.com</p>
 
-    </section>
+        </section>
 
-    <section class="contato-formulario">
+        <section class="mapa">
 
-        <h2>Envie uma Mensagem</h2>
+            <h2>Localização</h2>
 
-        <form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.158249576675!2d-46.481142000000006!3d-22.610564999999998!2m3!1f0!2f0!3f0!2m3!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c940da03b0fcc5%3A0xaa55f71d8f360497!2sRios%20De%20Aventura%20Rafting!5e0!3m2!1spt-BR!2sbr!4v1780604854078!5m2!1spt-BR!2sbr"
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
 
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" required>
+        </section>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+        <section class="funcionarios">
 
-            <p>Finalidade da Mensagem:</p>
+            <h2>Nossa Equipe</h2>
 
-            <div class="radio-group">
+            <figure>
+                <img src="imagens/guia1.jpg" alt="Mariana Souza">
+                <figcaption>Mariana Souza - Guia Principal</figcaption>
+            </figure>
 
-                <label>
-                    <input type="radio" name="assunto" value="consulta">
-                    Consulta Geral
-                </label>
+            <figure>
+                <img src="imagens/guia2.jpg" alt="Rafael Costa">
+                <figcaption>Rafael Costa - Coordenador de Passeios</figcaption>
+            </figure>
 
-                <label>
-                    <input type="radio" name="assunto" value="reserva">
-                    Pergunta sobre Reserva
-                </label>
+            <figure>
+                <img src="imagens/proprietario.png" alt="Lucas Almeida">
+                <figcaption>Lucas Almeida - Diretor Operacional</figcaption>
+            </figure>
 
-                <label>
-                    <input type="radio" name="assunto" value="sugestao">
-                    Sugestão de Site
-                </label>
+        </section>
 
-            </div>
+        <section class="contato-formulario">
 
-            <label for="mensagem">Mensagem</label>
+            <h2>Envie uma Mensagem</h2>
 
-            <textarea id="mensagem" name="mensagem" rows="5">
-            </textarea>
+            <form>
 
-            <div class="checkbox-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
 
-                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-                <label for="newsletter">
-                    Quero receber a newsletter mensal
-                </label>
+                <p>Finalidade da Mensagem:</p>
 
-            </div>
+                <div class="radio-group">
 
-            <button type="submit">
-                Enviar Mensagem
-            </button>
+                    <input type="radio" id="consulta" name="assunto" value="consulta" required>
+                    <label for="consulta">Consulta Geral</label>
 
-        </form>
+                    <input type="radio" id="reserva" name="assunto" value="reserva">
+                    <label for="reserva">Pergunta sobre Reserva</label>
 
-    </section>
+                    <input type="radio" id="sugestao" name="assunto" value="sugestao">
+                    <label for="sugestao">Sugestão de Site</label>
 
-</main>
+                </div>
+
+                <label for="mensagem">Mensagem</label>
+
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+                <div class="checkbox-group">
+
+                    <input type="checkbox" id="newsletter" name="newsletter">
+
+                    <label for="newsletter">
+                        Quero receber a newsletter mensal
+                    </label>
+
+                </div>
+
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2026 Rafting Águas Vivas | Naiara Cassimiro</p>
+
+        <nav class="socialmedia">
+
+            <a href="https://facebook.com">
+                <img src="imagens/facebook.png" alt="Facebook">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://youtube.com">
+                <img src="imagens/youtube.png" alt="YouTube">
+            </a>
+
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
