@@ -36,7 +36,7 @@ header img {
     width: 100px;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-around;
 }
@@ -138,9 +138,13 @@ main h1 {
     margin: 25px 0;
 }
 
-.contato-info {
+.contato-info,
+.mapa {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.contato-info {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -148,11 +152,6 @@ main h1 {
 
 .contato-info p {
     margin: 10px 0;
-}
-
-.mapa {
-    max-width: 900px;
-    margin: 0 auto;
 }
 
 .mapa iframe {
