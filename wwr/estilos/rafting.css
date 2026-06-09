@@ -218,32 +218,46 @@ main h1 {
 .radio-group {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
+    margin-top: 10px;
 }
 
-.radio-group label,
-.checkbox-group label {
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-weight: normal;
+    cursor: pointer;
 }
 
 .checkbox-group {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
 }
 
-.contato-formulario button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-    font-size: 1rem;
+.checkbox-group label {
     cursor: pointer;
+}
+
+.contato-formulario {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contato-formulario button:hover {
     background-color: var(--primary-color);
+}
+
+.contato-formulario input:focus,
+.contato-formulario textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
 }
 
 /* ==========================
