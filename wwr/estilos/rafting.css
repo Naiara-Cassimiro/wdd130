@@ -79,9 +79,10 @@ nav a:hover {
     background-color: rgba(27, 122, 56, 0.9);
     padding: 10px 20px;
     border-radius: 5px;
+    z-index: 2;
 }
 
-.hero article {
+.hero-content {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -92,7 +93,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.hero article img {
+.hero-content img {
     float: right;
     width: 120px;
     height: auto;
@@ -330,16 +331,32 @@ footer p {
         font-size: 1.3rem;
     }
 
-    .hero article {
+    .hero-content {
         width: 90%;
     }
 
-    .hero article img {
+    .hero-content img {
         float: none;
         display: block;
         margin: 0 auto 10px;
     }
+
+    .trip-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .trip-table {
+        font-size: 0.85rem;
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
 }
+
+/* ==========================
+   PASSEIOS
+========================== */
 
 .trip-cards {
     display: grid;
@@ -347,6 +364,13 @@ footer p {
     gap: 25px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.trip-cards h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--accent-color);
 }
 
 .trip-card {
