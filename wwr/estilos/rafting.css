@@ -254,6 +254,16 @@ main h1 {
     background-color: var(--primary-color);
 }
 
+.contato-formulario button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
 .contato-formulario input:focus,
 .contato-formulario textarea:focus {
     outline: none;
